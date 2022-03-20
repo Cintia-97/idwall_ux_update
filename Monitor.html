@@ -1,17 +1,231 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+<<<<<<< HEAD
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./css/monitor.css">
+=======
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/tela2.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+>>>>>>> 79ea8cdaa7d0cbb642e2a75c18a2add334cbd6eb
     <script href="js/eventos.js"></script>
     
     <title>Monitor</title>
 </head>
 <body>
 
+<<<<<<< HEAD
+  <!--Menu Navegação-->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+                <img src="./Imagens/logo.png" width="100" height="30" alt="logo">
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav container-fluid">
+  
+                      <li class="nav-item">
+                          <div class="nav-link">  
+                              <p>Atributos</p>
+                          </div>
+                      </li>
+  
+                      <li class="nav-item">
+                          <div class="nav-link">  
+                              <p>Documentos</p>
+                          </div>
+                      </li>
+  
+                      <li class="nav-item">
+                          <div class="nav-link">  
+                              <p>Fontes</p>
+                          </div>
+                      </li>
+  
+                      <li class="nav-item">
+                          <div class="nav-link">  
+                              <p>Matrizes</p>
+                          </div>
+                      </li>
+  
+                      <li class="nav-item">
+                          <div class="nav-link">  
+                              <p>Monitor</p>
+                          </div>
+                      </li>
+  
+                      <li class="nav-item">
+                          <div class="nav-link">  
+                              <p>Organização</p>
+                          </div>
+                      </li>
+  
+                      <li class="nav-item">
+                          <div class="nav-link">  
+                              <p>Protocolos</p>
+                          </div>
+                      </li>
+  
+                      <li class="nav-item">
+                          <div class="nav-link">  
+                              <p>Regras</p>
+                          </div>
+                      </li>
+  
+                      <li class="nav-item">
+                          <div class="nav-link">  
+                              <p>Usuários</p>
+                          </div>
+                      </li>
+  
+                      <li class="nav-item">
+                          <div class="nav-link">
+                              <p>Sair</p>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+              <form class="form-inline">
+                  <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                  <button class="btn btn-outline-light" type="submit">Pesquisar</button>
+        
+              </form>
+          </div>
+        </nav>
+    <!--FIM Menu Navegação-->
+    
+    <!-- Tabelas -->
+
+   
+      <div class="body"> 
+        <h1>Monitor</h1><br>
+            <div>
+              <select class="form-control col-md-6 offset-md-3" id="dropdown-escolhas">
+                <option value="protocolo">Protocolos</option>
+                <option value="status">Status</option>
+                <option value="analise">Consultas em análise</option>
+              </select>
+              <!-- <button class="btn btn-light my-2 my-sm-2" type="submit">Pesquisa</button> -->
+            </div>
+
+
+            <table class="table" id="protocolo">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Protocolo</th>
+                  <th scope="col">Último</th>
+                  <th scope="col">Nickname</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+
+              <table class="table" id="status">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Último</th>
+                    <th scope="col">Nickname</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <table class="table" id="analise">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Analise</th>
+                    <th scope="col">Último</th>
+                    <th scope="col">Nickname</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </table>
+        </div>
+      </div>
+    <!-- Fim das Tabelas -->
+      <script src="./js/monitor.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+=======
     <!--Header-->
     <!--Logo-->
     <header class="contaienr">
@@ -99,5 +313,6 @@
     </header>
     <!--Fim Header-->
 <script src="js/bootstrap.min.js"></script>
+>>>>>>> 79ea8cdaa7d0cbb642e2a75c18a2add334cbd6eb
 </body>
 </html>

@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar{
+    background-color: #ada8d8;
+}
+
+.body{
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.btn{
+    color:#080808;
+    background-color: #a491ff;
+}
+
+#protocolo{
+    margin-top: 20px;
+}
